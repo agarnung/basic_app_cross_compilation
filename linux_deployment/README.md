@@ -68,6 +68,6 @@ Steps:
 - When the build process has finished create a new kit in Qt Creator and select the new qmake.exe or qmake from your source-code folder.
 - Select in the project settings your kit to build a statically executable that requires not additional libraries.
 
-<h2>Docker container</h2>
+<h2>Docker containers</h2>
 
-[This project](https://github.com/state-of-the-art/qt6-docker ) provides various docker containers to build an applicatoin in multiple platforms.
+[This project](https://github.com/state-of-the-art/qt6-docker ) provides various docker containers to build an application in multiple platforms.
