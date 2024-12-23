@@ -1,7 +1,7 @@
 # basic-app-cross-compilation
 Humongously simple Qt app dedicated to cross compiling in different platforms
 
-# Resources:
+# Resources
 **Deployment:**
 - https://www.youtube.com/watch?v=Y0MSOQGv5N4
 - https://stackoverflow.com/questions/49982419/how-to-release-a-qt-c-application-on-linux-and-windows
