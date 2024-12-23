@@ -35,8 +35,18 @@ Steps:
 
 <h2>Similar tools</h2>
 
-If linuxdeployqt does not work, another workaroung is to try appimage-builder or go-appimage
+If linuxdeployqt does not work, another workaroung is to try other similar tools:
 
+<h3>linuxdeploy</h3>
+
+Can be downloaded form [here](https://github.com/linuxdeploy/linuxdeploy)
+
+See:
+- https://github.com/Serial-Studio/Serial-Studio/blob/master/.github/workflows/deploy.yml
+- https://docs.appimage.org/packaging-guide/from-source/native-binaries.html#using-linuxdeploy-for-building-appimages
+- https://github.com/Serial-Studio/Serial-Studio/blob/master/.github/workflows/deploy.yml
+- https://www.reddit.com/r/QtFramework/comments/xv806e/cant_find_a_way_to_create_appimage_for_qt6/
+  
 <h3>appimage-builder</h3>
 
 Can be downloaded form [here](https://github.com/AppImageCrafters/appimage-builder)
@@ -58,3 +68,6 @@ Steps:
 - When the build process has finished create a new kit in Qt Creator and select the new qmake.exe or qmake from your source-code folder.
 - Select in the project settings your kit to build a statically executable that requires not additional libraries.
 
+<h2>Docker container</h2>
+
+[This project](https://github.com/state-of-the-art/qt6-docker ) provides various docker containers to build an applicatoin in multiple platforms.
