@@ -2,10 +2,21 @@ QT += core widgets statemachine
 
 TEMPLATE = app
 
-CONFIG += c++17
+TARGET = myapp
+
+CONFIG += c++21
 
 SOURCES += \
         main.cpp
+
+RESOURCES += \
+    assets.qrc
+
+# Enable pkg-config
+CONFIG += link_pkgconfig
+
+# Specify the OpenCV package
+PKGCONFIG += opencv4
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
