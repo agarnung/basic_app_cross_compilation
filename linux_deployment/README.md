@@ -255,17 +255,17 @@ After packaging, the directory structure should look like this:
 
 Run the generated AppImage to ensure it works as expected:
 
-    ```bash
-    ./MyApp-x86_64.AppImage
-    ```
+ ```bash
+ ./MyApp-x86_64.AppImage
+ ```
 
 ### Additional Libraries or Plugins
 
 If your application requires additional libraries or plugins, you can specify them like this:
 
-    ```bash
-    ./linuxdeploy-x86_64.AppImage --appdir MyAppDir --library /path/to/my/library.so --plugin qt --output appimage
-    ```
+ ```bash
+ ./linuxdeploy-x86_64.AppImage --appdir MyAppDir --library /path/to/my/library.so --plugin qt --output appimage
+ ```
 
 If everything is configured correctly, you'll be able to distribute your AppImage to other machines.
 
@@ -275,21 +275,21 @@ You can also use the generated AppDir to create an AppImage with [AppImageKit](h
 
 If you are using the `linuxdeploy-plugin-qt-x86_64.AppImage`, make sure you set the `qmake` path in your terminal session:
 
-    ```bash
-    export PATH=$PATH:/opt/Qt/6.8.1/gcc_64/bin/
-    ```
+ ```bash
+ export PATH=$PATH:/opt/Qt/6.8.1/gcc_64/bin/
+ ```
 
 Then, generate the AppDir:
 
-    ```bash
-    ./linuxdeploy-plugin-qt-x86_64.AppImage --appdir MyAppDir
-    ```
+ ```bash
+ ./linuxdeploy-plugin-qt-x86_64.AppImage --appdir MyAppDir
+ ```
 
 Finally, create the AppImage using the `linuxdeploy` command:
 
-    ```bash
-    ./linuxdeploy-x86_64.AppImage --appdir MyAppDir --output appimage
-    ```
+ ```bash
+ ./linuxdeploy-x86_64.AppImage --appdir MyAppDir --output appimage
+ ```
 
 ### References
 
