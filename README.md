@@ -11,7 +11,7 @@ Check the [README](https://github.com/agarnung/basic-app-cross-compilation/blob/
 - https://www.youtube.com/watch?v=PDzlT_ODpM8&ab_channel=probono
 
 **Cross compilation:**
-Check the [README](https://github.com/agarnung/basic-app-cross-compilation/blob/main/linux_to_windows/app/README.md)
+Check the [README](https://github.com/agarnung/basic-app-cross-compilation/blob/main/linux_to_windows/README.md)
 - https://forum.qt.io/topic/147212/how-do-i-get-the-qt-application-i-ve-made-to-run-on-windows-linux-and-android-operating-systems/6
 - https://medium.com/@vladadgad/cross-compile-qt-for-windows-on-linux-platform-57e4b71ed1aa
 - https://askubuntu.com/questions/656219/building-a-windows-executable-in-qt-on-a-linux-system
