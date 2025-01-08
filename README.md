@@ -1,8 +1,11 @@
 # basic-app-cross-compilation
-Humongously simple Qt app dedicated to cross compiling in different platforms
+Humongously simple Qt app dedicated to cross compiling in different platforms.
+
+We will first experiment with _inter-machine_ (i.e. [Linux deployment](https://github.com/agarnung/basic-app-cross-compilation/tree/main/linux_deployment)) and follow with _inter-machine_ (i.e. [cross compilation](https://github.com/agarnung/basic-app-cross-compilation/blob/main/linux_to_windows/app/README.md)) app distribution.
 
 # Resources
 **Deployment:**
+Check the [README](https://github.com/agarnung/basic-app-cross-compilation/tree/main/linux_to_windows/app#readme)
 - https://www.youtube.com/watch?v=Y0MSOQGv5N4
 - https://stackoverflow.com/questions/49982419/how-to-release-a-qt-c-application-on-linux-and-windows
 - https://www.youtube.com/watch?v=PDzlT_ODpM8&ab_channel=probono
