@@ -99,7 +99,7 @@ Another way is to ship a single binary that links to the executable all necessar
 
 ---
 
-## Basic tutorial suing linuxdeploy
+## Basic tutorial using linuxdeploy
 
 ### Guide
 
