@@ -293,8 +293,6 @@ If you compile form new to older systems, it is possible that glibc versions ear
 ldd --version 
 ```
 
-https://github.com/OpenShot/openshot-qt/issues/5182#issuecomment-1494876399
-
 ### References
 
 - [linuxdeploy Readme](https://github.com/linuxdeploy/linuxdeploy?tab=readme-ov-file)
