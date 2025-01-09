@@ -274,22 +274,26 @@ You can also use the generated AppDir to create an AppImage with [AppImageKit](h
 ### Troubleshooting
 
 If you are using the `linuxdeploy-plugin-qt-x86_64.AppImage`, make sure you set the `qmake` path in your terminal session:
-
- ```bash
- export PATH=$PATH:/opt/Qt/6.8.1/gcc_64/bin/
- ```
+```bash
+export PATH=$PATH:/opt/Qt/6.8.1/gcc_64/bin/
+```
 
 Then, generate the AppDir:
-
- ```bash
- ./linuxdeploy-plugin-qt-x86_64.AppImage --appdir MyAppDir
- ```
+```bash
+./linuxdeploy-plugin-qt-x86_64.AppImage --appdir MyAppDir
+```
 
 Finally, create the AppImage using the `linuxdeploy` command:
+```bash
+./linuxdeploy-x86_64.AppImage --appdir MyAppDir --output appimage
+```
 
- ```bash
- ./linuxdeploy-x86_64.AppImage --appdir MyAppDir --output appimage
- ```
+If you compile form new to older systems, it is possible that glibc versions earlier than 2.31 will cause error when executing the .AppImage. Check the target systems have a recent glib version (see [this](https://github.com/OpenShot/openshot-qt/issues/5182#issuecomment-1494876399)):
+```bash
+ldd --version 
+```
+
+https://github.com/OpenShot/openshot-qt/issues/5182#issuecomment-1494876399
 
 ### References
 
